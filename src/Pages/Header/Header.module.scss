@@ -1,0 +1,56 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+
+    @media (max-width: 700px){
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 2rem 0;
+      text-align: center;
+  }
+    
+    
+
+    &_logo{
+        color: var(--first-color);
+        font-size: 1.2rem;
+        letter-spacing: 5px;
+        @media (max-width: 700px) {
+            display: none;
+           }
+    }
+
+    &_list{
+         display: flex;
+         text-decoration: none;
+         margin-right: 5rem;
+         list-style: none;
+         @media (max-width: 700px){
+          margin-left: -20px;
+         
+         } 
+         
+    }
+
+    &_item{
+        margin-left: 5rem;
+        font-size: 1rem;    
+      
+    }
+
+    &_link{
+        transition: .3s;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        &:hover{
+            color: var( --text-color-light);
+        }
+      
+    }
+ 
+}
+

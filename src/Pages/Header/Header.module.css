@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  text-decoration: none;
+}
+.nav_logo {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+}
+.nav_list {
+  display: flex;
+  text-decoration: none;
+  margin-right: 5rem;
+  list-style: none;
+}
+.nav_item {
+  margin-left: 5rem;
+  font-size: 1rem;
+}
+.nav_link {
+  transition: 0.3s;
+}
+.nav_link:hover {
+  color: rgb(209, 183, 216);
+}
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+}/*# sourceMappingURL=Header.module.css.map */
