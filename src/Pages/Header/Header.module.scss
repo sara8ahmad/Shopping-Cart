@@ -32,9 +32,11 @@
     }
 
     &_item{
-        padding: 1rem;
-        font-size: 1rem;    
-      
+       padding: 0 3rem;
+        font-size: 1rem;
+        @media (max-width: 700px) {
+            padding: 1rem;
+           }    
     }
 
     &_link{
