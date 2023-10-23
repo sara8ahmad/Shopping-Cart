@@ -27,17 +27,12 @@
     &_list{
          display: flex;
          text-decoration: none;
-         margin-right: 5rem;
-         list-style: none;
-         @media (max-width: 700px){
-          margin-left: -20px;
-         
-         } 
+         list-style: none;      
          
     }
 
     &_item{
-        margin-left: 5rem;
+        padding: 1rem;
         font-size: 1rem;    
       
     }
@@ -53,4 +48,5 @@
     }
  
 }
+
 
